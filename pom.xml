@@ -35,7 +35,9 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- For Eureka server , while adding the dependencies i added eureka-client instead of eureka-server for this project , although we will use both but client in the Microservices,but for now we use eureka-server -->
+        <!-- For Eureka server , while adding the dependencies i added eureka-client instead of
+        eureka-server for this project , although we will use both but client in the
+        Microservices,but for now here just we use eureka-server -->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.cloud</groupId>-->
 <!--            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
@@ -43,8 +45,8 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <version>5.0.0</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
